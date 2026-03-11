@@ -1,6 +1,7 @@
-# MyCodeBuddy— AI-Powered Coding Assistant (LangGraph)
+# AI CodeBuddy — AI-Powered Coding Assistant (LangGraph)
 
-An AI-powered coding assistant that operates like a small multi-agent development team. It takes a natural-language request ("Build a simple To‑Do app") and transforms it into a concrete engineering plan and implementation tasks, designed to generate a complete project file-by-file using real developer workflows.
+An AI CodeBuddy is a multi-agent AI development assistant that converts natural language prompts into fully structured software projects.
+The system uses LangGraph based agents to simulate a development workflow consisting of planning, architecture design, and automated code generation.
 
 ## 🚀 Features
 
@@ -11,6 +12,17 @@ An AI-powered coding assistant that operates like a small multi-agent developmen
 - **File Management**: View, edit, and download generated projects
 - **Project Export**: Download complete projects as ZIP files
 - **Session-based**: Multiple concurrent project generations
+
+## Tech Stack
+
+- Python
+- LangGraph
+- LangChain
+- FastAPI
+- React
+- TypeScript
+- Groq LLM
+- WebSockets
 
 ## 🏗️ Architecture
 
@@ -32,7 +44,7 @@ WebSocket Updates    Session Management      File Generation
 ## 📁 Repository Structure
 
 ```
-Code_Builder/
+MyCodeBuddy/
 ├── Agent/                    # Core agent system
 │   ├── graph.py             # LangGraph workflow definition
 │   ├── prompts.py           # Prompt templates for all agents
@@ -62,7 +74,7 @@ Code_Builder/
 
 1. **Clone and setup Python environment**:
 ```bash
-git clone <repository-url>
+git clone https://github.com/yourusername/MyCodeBuddy.git
 cd Code_Builder
 python3 -m venv .venv
 source .venv/bin/activate
@@ -290,6 +302,9 @@ python main.py
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Project Maintainer
+  Harsha Akasapu
 
 ---
 
